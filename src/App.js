@@ -1,11 +1,11 @@
 import React from 'react';
-import SideBar from './components/SideBar/SideBar';
-import MainContent from "./components/MainContent/MainContent";
-import Footer from "./components/Footer/Footer";
+import './App.css';
+
+import Introduction from "./components/Introduction/Introduction";
 function App() {
   return (
-      <div>
-          <SideBar />
+      <div className="App">
+            <Introduction />
       </div>
   );
 }
