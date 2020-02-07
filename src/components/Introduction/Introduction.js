@@ -22,7 +22,7 @@ class Introduction extends Component {
                     <div className="contact">
                         <a className="info" href={emailLink}><FontAwesomeIcon icon={faEnvelope}/>     arnishgrover@gmail.com</a><br/>
                         <a className="info" href={bangaloreMapLink} target={"blank"}><FontAwesomeIcon icon={faMap}/>     Bangalore, Karnataka, India</a>
-                        <p style={{fontSize: 16}}>Other links</p>
+                        <p style={{fontSize: 12, fontFamily: "Arial"}}>OTHER LINKS</p>
                         <a className="info" href={githubLink} target={"blank"} style={{color: '#ff420e'}}><FontAwesomeIcon icon={faMouse}/>      GitHub</a><br/>
                         <a className="info" href={linkedInLink} target={"blank"} style={{color: '#18322f'}}><FontAwesomeIcon icon={faLink}/>     LinkedIn</a>
                     </div>
