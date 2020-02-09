@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito|Roboto+Condensed&display=swap');
+.main {
+    height: 200%;
+    width: 20%;
+    background-color: #f2f3f7;
+    padding: 25px;
+    position: fixed;
+}
+
+.text {
+    font-size: 30px;
+    font-family: Georgia, serif;
+    font-style: normal;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border-radius: 2000px;
+    margin: 50px 30px 0;
+}
+
+.contact {
+    padding-left: 15px;
+    line-height: 25px;
+}
+
+.info {
+    font-family: Nunito, sans-serif;
+    font-size: 14px;
+    line-height: 7px;
+    text-decoration: none;
+    text-align: center;
+}
+.end {
+    padding-top: 50px;
+    text-align: center;
+}
+.end-text {
+    font-size: 15px;
+    line-break: strict;
+    font-family: Arial, sans-serif;
+    color: grey;
+}
+
+.cv {
+    margin: 20px;
+    padding: 10px;
+}
