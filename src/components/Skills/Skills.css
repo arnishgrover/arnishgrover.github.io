@@ -1,0 +1,36 @@
+.skills-main {
+    border: 1px solid rgba(179, 179, 150, 0.56);
+    padding: 2px 15px 10px;
+    margin: 20px 10px 10px;
+    border-radius: 8px;
+    background-color: rgba(251, 251, 217, 0.26);
+}
+
+.skills-heading {
+    font-family: Rubik, sans-serif;
+    font-size: 32px;
+    padding-top: 36px;
+    padding-bottom: 10px;
+}
+
+.skill-group {
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+.skill-text {
+    float: left;
+    width: 30%;
+    text-align: start;
+}
+
+.skill-bar {
+    float: left;
+    width: 55%;
+    margin-top: 20px;
+}
+
+.skill-text-main {
+    font-size: 18px;
+    font-family: Rubik, sans-serif;
+}
