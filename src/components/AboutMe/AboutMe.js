@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import "./AboutMe.css";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faUniversalAccess, faHeartbeat} from '@fortawesome/free-solid-svg-icons'
+
 
 class AboutMe extends Component {
     render() {
@@ -11,7 +14,9 @@ class AboutMe extends Component {
                     </p>
                 </div>
                 <div className='heading-2'>
-                    <p className='sub-question'>Who Am I ?</p>
+                    <p className='sub-question'>
+                        <FontAwesomeIcon icon={faUniversalAccess} size='1px'/>  Who Am I ?
+                    </p>
                 </div>
                 <div className='detail'>
                     <p className='detail-text'>
@@ -23,7 +28,9 @@ class AboutMe extends Component {
                 </div>
 
                 <div className='heading-2'>
-                    <p className='sub-question'>What I love ?</p>
+                    <p className='sub-question'>
+                        <FontAwesomeIcon icon={faHeartbeat} size='1px'/>  What I love ?
+                    </p>
                 </div>
                 <div className='detail'>
                     <p className='detail-text'>
