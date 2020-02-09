@@ -3,6 +3,9 @@ import "./Education.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFlag, faSchool} from '@fortawesome/free-solid-svg-icons'
 
+export const chitkaraLink = "https://www.chitkara.edu.in/"
+export const freeCodeCampLink = "https://www.freecodecamp.org/"
+
 class Education extends Component {
     render() {
         return (
@@ -16,7 +19,7 @@ class Education extends Component {
                 <div className='education-heading-2'>
                     <p className='sub-question-degree'>Bachelor's of Technology - <span style={{fontSize: "14px"}}>Computer Science Engineering</span>
                     </p>
-                    <FontAwesomeIcon icon={faSchool}/><span className='completion'> CHITKARA UNIVERSITY </span>
+                    <a href={chitkaraLink} target="_blank" style={{textDecoration: "none"}} ><FontAwesomeIcon icon={faSchool}/><span className='completion'> CHITKARA UNIVERSITY </span></a>
                     <p className='completion'><FontAwesomeIcon icon={faFlag} size='1x'/> Expected Jul. 2020</p>
                 </div>
                 <div className='education-detail'>
@@ -35,12 +38,12 @@ class Education extends Component {
                 <div className='education-heading-2'>
                     <p className='sub-question-degree'>Certification - <span style={{fontSize: "14px"}}>Full Stack Web Development</span>
                     </p>
-                    <FontAwesomeIcon icon={faSchool}/><span className='completion'> FREECODECAMP.ORG </span>
+                    <a href={freeCodeCampLink} target="_blank" style={{textDecoration: "none"}} ><FontAwesomeIcon icon={faSchool}/><span className='completion'> FREECODECAMP.ORG </span></a>
                     <p className='completion'><FontAwesomeIcon icon={faFlag} size='1x'/> Completed Dec. 2017</p>
                 </div>
                 <div className='education-detail'>
                     <p className='education-detail-text'>
-                        I have completed a Full stack web development certification from Free Code Camp.
+                        I have completed a Full stack web development certification from FreeCodeCamp.
                     </p>
                 </div>
                 <hr /> <br />

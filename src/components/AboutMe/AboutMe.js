@@ -3,7 +3,7 @@ import "./AboutMe.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faUniversalAccess, faHeartbeat} from '@fortawesome/free-solid-svg-icons'
 
-
+export const chitkaraLink = "https://www.chitkara.edu.in/"
 class AboutMe extends Component {
     render() {
         return (
@@ -20,7 +20,7 @@ class AboutMe extends Component {
                 </div>
                 <div className='detail'>
                     <p className='detail-text'>
-                        I'm a 20 year guy studying in the final year of my college, Chitkara University.
+                        I'm a 20 year old guy studying in the final year of my college, <a style={{textDecoration: 'none'}} href={chitkaraLink} target='_blank'>Chitkara University</a>.
                         Born and raised in Patiala, Punjab. Moved to the city of Bangalore in 2019. Hardworking and
                         passionate for what I do.
                         Love to stay fit and help others to acheive their fitness goals.
