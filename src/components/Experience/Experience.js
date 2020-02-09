@@ -32,7 +32,6 @@ class Experience extends Component {
                         Kubernetes, Jenkins, K8s</p>
                     <p className='experience-detail-text'>Experienced in managing NoSQL databases like MongoDB Key
                         Accomplishments</p>
-
                 </div>
             </div>
         )
