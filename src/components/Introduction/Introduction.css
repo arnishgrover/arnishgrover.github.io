@@ -33,7 +33,7 @@
     text-align: center;
 }
 .end {
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
 }
 .end-text {
@@ -41,4 +41,9 @@
     line-break: strict;
     font-family: Arial, sans-serif;
     color: grey;
+}
+
+.cv {
+    margin: 20px;
+    padding: 10px;
 }
