@@ -1,0 +1,36 @@
+.education-main {
+    border: 0.5px solid #c5cdcd;
+    padding: 2px 15px 10px;
+    margin: 20px 10px 10px;
+    border-radius: 8px;
+    background-color: #f1f9f9;
+}
+
+.education {
+    font-family: Rubik, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.completion {
+    line-height: 1px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.education-heading-2 {
+    line-height: 1px;
+}
+
+.sub-question-degree {
+    font-family: Lato, sans-serif;
+    font-size: 19px;
+    line-height: 4px;
+}
+
+.education-detail-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Rubik, serif;
+    font-weight: 100;
+}

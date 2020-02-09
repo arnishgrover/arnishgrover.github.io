@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen|Raleway|Rubik|Work+Sans&display=swap');
 
 .about-main {
+    border: 0.5px solid #c9d9e2;
     padding: 2px 15px 10px;
     margin: 20px 10px 10px;
     border-radius: 8px;
-    background-color: #f1fcfc;
+    background-color: #e1f2fb;
 }
 .heading {
 
 }
 .heading-2 {
-
+    line-height: 10px;
 }
 .about-me {
     font-family: Rubik, sans-serif;

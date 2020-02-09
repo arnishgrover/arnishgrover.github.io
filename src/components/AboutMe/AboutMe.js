@@ -5,7 +5,7 @@ class AboutMe extends Component {
     render() {
         return (
             <div className='about-main'>
-                <div className='heading' >
+                <div className='heading'>
                     <p className='about-me'>
                         About Me
                     </p>
@@ -15,8 +15,9 @@ class AboutMe extends Component {
                 </div>
                 <div className='detail'>
                     <p className='detail-text'>
-                        I'm  a 20 year guy studying in the final year of my college, Chitkara University.
-                        Born and raised in Patiala, Punjab. Moved to the city of Bangalore in 2019. Hardworking and passionate for what I do.
+                        I'm a 20 year guy studying in the final year of my college, Chitkara University.
+                        Born and raised in Patiala, Punjab. Moved to the city of Bangalore in 2019. Hardworking and
+                        passionate for what I do.
                         Love to stay fit and help others to acheive their fitness goals.
                     </p>
                 </div>
@@ -26,9 +27,12 @@ class AboutMe extends Component {
                 </div>
                 <div className='detail'>
                     <p className='detail-text'>
-                        I love Problem Solving and challenges that require Critical Thinking and pushing the limits of my brain to the edge.
-                        I have a good grasp over Data Structures, Algorithms, Databases and Object Oriented languages like Java, C++.
-                        Also I have worked on various full-blown projects that included development and management of front-end, back-end and database.
+                        I love Problem Solving and challenges that require Critical Thinking and pushing the limits of
+                        my brain to the edge.
+                        I have a good grasp over Data Structures, Algorithms, Databases and Object Oriented languages
+                        like Java, C++.
+                        Also I have worked on various full-blown projects that included development and management of
+                        front-end, back-end and database.
                     </p>
                 </div>
             </div>
