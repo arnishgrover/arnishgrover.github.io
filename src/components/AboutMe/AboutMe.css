@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Raleway|Rubik|Work+Sans&display=swap');
+
+.about-main {
+    padding: 2px 15px 10px;
+    margin: 20px 10px 10px;
+    border-radius: 8px;
+    background-color: #f1fcfc;
+}
+.heading {
+
+}
+.heading-2 {
+
+}
+.about-me {
+    font-family: Rubik, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+.sub-question {
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+}
+.detail-text {
+    font-size: 16px;
+    font-family: Rubik, sans-serif;
+    text-align: left;
+    line-height: 22px;
+}
